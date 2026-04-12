@@ -22,7 +22,7 @@ Traditional scoring systems measure content; DeBet measures **inferential move**
 ## 🛠 Installation
 
     # Clone the repository
-    git clone https://github.com/your-username/debet-scorer.git
+    git clone https://github.com/panxyz123/DeBet_API.git
     cd debet-scorer
 
     # Install dependencies in editable mode
@@ -36,7 +36,6 @@ Create a `.env` file in the root directory and add your API keys:
 
     OPENAI_API_KEY=your_openai_key_here
     ANTHROPIC_API_KEY=your_anthropic_key_here
-    GOOGLE_API_KEY=your_google_key_here
 
 ---
 
@@ -53,16 +52,16 @@ $$
 - **$E$ (Evidence)**  
   Calculated as the average of individual evidence pieces ($e_i$), where:
 
-  $$
-  e_i = \text{Credibility} \times \text{Recency} \times \text{Relevance} \times \text{Specificity}
-  $$
+$$
+e_i = \text{Credibility} \times \text{Recency} \times \text{Relevance} \times \text{Specificity}
+$$
 
 - **$L$ (Logic)**  
   Represents the logical transfer from evidence to conclusion:
 
-  $$
-  L = (\text{Average Step Strength}) \times (0.5^g)
-  $$
+$$
+L = (\text{Average Step Strength}) \times (0.5^g)
+$$
 
   where $g$ is the number of unstated logical gaps.
 
@@ -104,9 +103,6 @@ Every evaluation generates two files for transparency and auditing:
 
 - **`debet_master_logs.json`**  
   A cumulative record of raw parameters extracted by each LLM
-
-- **`debet_audit_TIMESTAMP.xlsx`**  
-  A human-readable spreadsheet containing the rationale for every score dimension
 
 ---
 
