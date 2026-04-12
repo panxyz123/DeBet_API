@@ -10,6 +10,7 @@ __pycache__/
 venv/
 env/
 .venv/
+.vscode/
 
 # Project-specific logs and reports
 debet_master_logs.json
