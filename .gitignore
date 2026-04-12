@@ -1,0 +1,27 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables (Sensitive Data)
+.env
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Project-specific logs and reports
+debet_master_logs.json
+debet_audit_*.xlsx
+
+# Mac/OS system files
+.DS_Store
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+
+# Local Test Files
+debet_master_logs.json
