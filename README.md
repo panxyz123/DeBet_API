@@ -23,7 +23,6 @@ Traditional scoring systems measure content; DeBet measures **inferential move**
 
     # Clone the repository
     git clone https://github.com/panxyz123/DeBet_API.git
-    cd debet-scorer
 
     # Install dependencies in editable mode
     pip install -e .
