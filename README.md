@@ -3,6 +3,8 @@
 DeBet is a multi-model evaluation framework designed to quantify the strength of an argument using **Bayesian updating principles**. Instead of measuring what an argument contains (length, citations), it measures how much a rational skeptic should shift their belief after reading it.
 
 ---
+## [Link to Full Project](https://github.com/SrinivasNampalli/ForumProject)
+---
 
 ## 🧠 Core Philosophy
 
